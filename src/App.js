@@ -19,7 +19,10 @@ class App extends Component {
                             { config.for_sale ? <Contact/> : <Later/>}
                         </div>
                         <div className="column">
-                            {/*<Projects/>*/}
+                            <div className="title">
+                            <h2>My Other Projects</h2>
+                            </div>
+                            <Projects/>
                         </div>
                     </div>
                 </div>

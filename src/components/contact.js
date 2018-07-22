@@ -7,7 +7,7 @@ class Contact extends Component {
     render() {
         return(
             <div className="cntct">
-                You can contact me via {' '}
+                If you have a project and are interested in this domain, you can contact me via {' '}
                 <Obfuscate
                 email={config.contact_email}
                 headers={{

@@ -1,0 +1,11 @@
+[
+  {
+    "name": "bins.io",
+    "description": "Bins.io is a file sharing tool usable from anywhere with bash.",
+    "url": "https://bins.io"
+  }, {
+    "name": "wasson.io",
+    "description": "My GPG key.",
+    "url": "https://wasson.io"
+  }
+]

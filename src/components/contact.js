@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Obfuscate from 'react-obfuscate';
+import config from '../config';
 
 
 class Contact extends Component {
@@ -8,9 +9,9 @@ class Contact extends Component {
             <div className="cntct">
                 You can contact me via {' '}
                 <Obfuscate
-                email="_@chip.bz"
+                email={config.contact_email}
                 headers={{
-                    subject: `Inquiry about ${window.location.href}`
+                    subject: `Inquiry about ${config.domain}`
                 }}
                 />  
             </div>

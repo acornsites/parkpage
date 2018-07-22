@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+## Parkpage specific information
+
+When building the environment variable `REACT_APP_DOMAIN` will be used as the domain name referenced in the application.
+
+To simulate this with watch:
+
+    REACT_APP_DOMAIN=cns.io npm run start
+
+The environment variables `REACT_APP_CONTACT_EMAIL`, `REACT_APP_IN_USE` and `REACT_APP_FOR_SALE` must also be set in production.
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 

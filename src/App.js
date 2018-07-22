@@ -9,11 +9,11 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>This domain is owned.</h1>
-          <p>It is {config["in-use"] ? 'in use and ': ''}{ config["for-sale"] ? 'for sale' : 'not for sale' }.</p>
+          <h1>{ config.domain } is owned.</h1>
+          <p>It is {config.in_use ? 'in use and ': ''}{ config.for_sale ? 'for sale' : 'not for sale' }.</p>
         </header>
         <p className="App-intro">
-             { config["for-sale"] ? <Contact/> : <Later/>} 
+             { config.for_sale ? <Contact/> : <Later/>} 
         </p>
       </div>
     );

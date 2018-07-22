@@ -12,7 +12,7 @@ class Hero extends Component {
                             { config.domain } is owned
                         </h1>
                         <h2 className="subtitle">
-                            It is {config.in_use ? 'in use and ': ''}{ config.for_sale ? 'for sale' : 'not for sale' }.
+                            It is {config.in_use ? 'in use and ': ''}{ config.for_sale ? 'available for sale if you have an amazing project' : 'not for sale' }.
                         </h2>
                     </div>
                 </div>

@@ -28,7 +28,7 @@ Environment Variable | Default Value | Description
 ------|-------|-----
 REACT_APP_FOR_SALE | `true` | String "true" or "false" indicating whether the domain is for sale or not.
 REACT_APP_IN_USE | `true` | String "true" or "false" indicating whether the domain is in use currently.
-REACT_APP_DOMAIN | `This domain` | How the domain should be referred to, defaults to "This domain" but also makes sense as the FQDN.
-REACT_APP_CONTACT_EMAIL | `user@example.com` | The email at which the owner or operator can be reached.
+REACT_APP_DOMAIN | `example.com` | How the domain should be referred to, defaults to "example.com" but also makes sense as a brief sentence.
+REACT_APP_CONTACT_EMAIL | `person@example.com` | The email at which the owner or operator can be reached.
 
 For development purposes, the `.env` file contains default values for the maximum text output.

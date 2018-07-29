@@ -31,5 +31,4 @@ REACT_APP_IN_USE | `true` | String "true" or "false" indicating whether the doma
 REACT_APP_DOMAIN | `This domain` | How the domain should be referred to, defaults to "This domain" but also makes sense as the FQDN.
 REACT_APP_CONTACT_EMAIL | `user@example.com` | The email at which the owner or operator can be reached.
 
-For development purposes (npm run in non-production mode), the `config.js` file has a default configuration that sets a domain name, contact email, for
-sale, and in use values.
+For development purposes, the `.env` file contains default values for the maximum text output.

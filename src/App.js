@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import config from './config';
+import config from './config/config';
 import Contact from './components/contact';
 import Later from './components/later';
 import Hero from "./components/hero";

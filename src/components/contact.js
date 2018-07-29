@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Obfuscate from 'react-obfuscate';
-import config from '../config';
+import config from '../config/config';
 
 
 class Contact extends Component {

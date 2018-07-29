@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import config from '../config';
-import projects from '../projects';
+import projects from '../config/projects';
 import ProjectCard from "../presentational/projectcard";
 
 class Projects extends Component {
@@ -9,11 +8,13 @@ class Projects extends Component {
         return (
             <div className="projects">
 
-                { projects.map(project => <ProjectCard
-                name={project.name}
-                description={project.description}
-                url={project.url}
-                />) }
+                { projects.map(project =>
+                        <ProjectCard
+                        name={project.name}
+                        description={project.description}
+                        url={project.url}
+                        />
+                ) }
 
             </div>
         );

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import config from '../config';
+import config from '../config/config';
 
 class Hero extends Component {
     render() {

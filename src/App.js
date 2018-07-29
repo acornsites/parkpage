@@ -4,7 +4,8 @@ import config from './config/config';
 import Contact from './components/contact';
 import Later from './components/later';
 import Hero from "./components/hero";
-import Projects from "./components/projects";
+import Projects from './components/projects';
+import Social from './components/social';
 
 
 class App extends Component {
@@ -27,6 +28,18 @@ class App extends Component {
                     </div>
                 </div>
             </section>
+            <footer className="footer">
+                <section>
+                    <div className="columns">
+                        <div className="column">
+                            <i className="fa fa-icon-fork"></i>
+                        </div>
+                        <div className="column">
+                            <Social/>
+                        </div>
+                    </div>
+                </section>
+            </footer>
         </div>
     );
   }

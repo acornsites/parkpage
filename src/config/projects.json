@@ -5,11 +5,6 @@
     "url": "https://bins.io"
   },
   {
-    "name": "GPG Key",
-    "description": "You can get the public portion of my GPG Key here",
-    "url": "https://wasson.io"
-  },
-  {
     "name": "git.gg",
     "description": "Yet another GitLab deployment",
     "url": "https://git.gg"

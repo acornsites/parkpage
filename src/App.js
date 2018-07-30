@@ -6,6 +6,8 @@ import Later from './components/later';
 import Hero from "./components/hero";
 import Projects from './components/projects';
 import Social from './components/social';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCodeBranch } from '@fortawesome/free-solid-svg-icons'
 
 
 class App extends Component {
@@ -31,10 +33,10 @@ class App extends Component {
             <footer className="footer">
                 <section>
                     <div className="columns">
-                        <div className="column">
-                            <i className="fa fa-icon-fork"></i>
+                        <div className="column has-text-centered">
+                            <a href="https://github.com/chpwssn/parkpage"><FontAwesomeIcon icon={faCodeBranch}/> fork me on GitHub</a>
                         </div>
-                        <div className="column">
+                        <div className="column has-text-centered">
                             <Social/>
                         </div>
                     </div>

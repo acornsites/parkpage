@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin, faFacebook, faTwitter, faKeybase } from '@fortawesome/free-brands-svg-icons'
 
 
 class Social extends Component {
@@ -10,23 +12,28 @@ class Social extends Component {
         const types = {
             linkedin: {
                 base: "https://linkedin.com/in/{name}",
-                name: "LinkedIn"
+                name: "LinkedIn",
+                icon: <FontAwesomeIcon icon={faLinkedin}/>
             },
             facebook: {
                 base: "https://facebook.com/{name}",
-                name: "Facebook"
+                name: "Facebook",
+                icon: <FontAwesomeIcon icon={faFacebook}/>
             },
             twitter: {
                 base: "https://twitter.com/{name}",
-                name: "Twitter"
+                name: "Twitter",
+                icon: <FontAwesomeIcon icon={faTwitter}/>
             },
             keybase: {
                 base: "https://keybase.com/{name}",
-                name: "Keybase"
+                name: "Keybase",
+                icon: <FontAwesomeIcon icon={faKeybase}/>
             },
             github: {
                 base: "https://github.com/{name}",
-                name: "GitHub"
+                name: "GitHub",
+                icon: <FontAwesomeIcon icon={faGithub}/>
             }
         }
         return types[type]
@@ -36,9 +43,7 @@ class Social extends Component {
         let social = this.socialFromType(this.props.type)
         if (social === null || social === undefined) return "";
         return(
-            <div className="social-icon">
-                <a href={this.injectSocial(social.base, this.props.username)}>{social.name}</a>
-            </div>
+                <a className="is-text-primary social-icon" href={this.injectSocial(social.base, this.props.username)}>{social.icon}</a>
         );
     }
 }

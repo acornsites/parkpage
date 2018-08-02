@@ -2,6 +2,8 @@
 
 A dirt simple packing page that can be deployed and adapted using a CI/CD easily.
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chpwssn/parkpage)
+
 ## Overview
 
 This app was written to easily create a parking page for dozens of domain names with minimal per-domain configuration.

@@ -26,7 +26,7 @@ class Social extends Component {
                 icon: <FontAwesomeIcon icon={faTwitter}/>
             },
             keybase: {
-                base: "https://keybase.com/{name}",
+                base: "https://keybase.io/{name}",
                 name: "Keybase",
                 icon: <FontAwesomeIcon icon={faKeybase}/>
             },

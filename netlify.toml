@@ -1,3 +1,7 @@
+[build]
+  publish = "build/"
+  command = "npm run build"
+
 [template.environment]
     REACT_APP_FOR_SALE = "true or false if the domain is for sale"
     REACT_APP_IN_USE = "true or false if the domain is in use"

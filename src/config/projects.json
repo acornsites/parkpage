@@ -1,5 +1,10 @@
 [
   {
+    "name": "yarhp",
+    "description": "All the best aggregators in one spot",
+    "url": "https://yarhp.com"
+  },
+  {
     "name": "bins.io",
     "description": "Bins.io is a file sharing tool usable from anywhere with bash.",
     "url": "https://bins.io"
